@@ -1,0 +1,128 @@
+.attribution
+{
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+      background-color: hsl(225, 100%, 94%);
+      height: 100vh;
+      font-family: 'Red Hat Display', sans-serif;
+}
+.container
+{
+      background-color: hsl(0, 0%, 100%);
+      width :25.5rem;
+      height: 38.5rem;
+      border-radius: 6%;
+}
+.container img
+{
+      width :25.5rem;
+      border-radius: 20px 20px 0 0;
+}
+.para-1
+{
+      margin-left: 2.8125rem;
+      margin-right: 2.8125rem;
+      line-height: 1.5;
+      text-align: center;
+}
+p
+{
+        font-size: 1rem;
+        color :hsl(224, 23%, 55%);
+        font-weight: 500;
+}
+.head-2
+{
+      font-weight: 900;
+
+      color: hsl(223, 47%, 23%);
+      text-align: center;
+}
+.mini-container .annual
+{
+      font-weight: 700;
+      padding-top: 20px;
+      color: hsl(223, 47%, 23%);
+}
+.mini-container
+{
+        background-color:   hsl(225, 100%, 98%);
+        border-radius: 6%;
+        margin : 20px 35px;
+}
+.mini-container img
+{
+        width :2.5rem;
+        float: left;
+        margin : 20px 0px 20px 20px;
+}
+.mini-container p
+{
+      margin: 0;
+      padding-left: 90px;
+      line-height: 1;
+}
+.cost
+{
+      padding-bottom: 1rem;
+}
+.change
+{
+      text-align: right;
+      font-size: 12px;
+      padding-right: 20px;
+      color: hsl(245, 75%, 52%);
+      font-weight: 700;
+}
+.payment-class
+{
+      padding: 10px;
+      text-align: center;
+}
+.payment-div
+{
+        background-color: hsl(245, 75%, 52%);
+        margin:30px 35px;
+        border-radius: 10px;
+        box-shadow: 3px 5px 8px hsl(224, 23%, 55%);
+}
+.cancel-class
+{
+      margin: 20px 35px 0 35px;
+      text-align: center;
+      font-weight: 700;
+}
+.payment-class a
+{
+      color: white;
+      text-decoration: none;
+}
+.cancel-class a
+{
+      text-decoration: none;
+      color :hsl(224, 23%, 55%);
+}
+.cancel-class a:hover
+{
+      color: hsl(223, 47%, 23%);
+}
+.payment-div :hover
+{
+      background-color:hsl(224, 23%, 55%);
+      border-radius: 10px;
+      cursor: pointer;
+}
+.change a:hover
+{
+      color :hsl(224, 23%, 55%);
+}
